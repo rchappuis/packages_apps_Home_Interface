@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <PreferenceScreen android:key="launcher_settings"
+                android:title="@string/launcher_settings_title" 
+                android:summary="@string/launcher_settings_summary">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.jarvis.HUD"
+                    android:targetClass="com.t3hh4xx0r.HUD.LauncherSettings" />
+        </PreferenceScreen>
+
+        <PreferenceScreen android:key="dock_settings"
+                android:title="@string/dock_settings_title" 
+                android:summary="@string/dock_settings_summary">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.jarvis.HUD"
+                    android:targetClass="com.t3hh4xx0r.HUD.DockSettings" />
+        </PreferenceScreen>
+
+</PreferenceScreen>

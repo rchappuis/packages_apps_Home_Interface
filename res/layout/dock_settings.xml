@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!-- APP SHORTCUT SELECTION -->
+	<PreferenceCategory android:title="@string/selectapp_category_title">
+	    <ListPreference android:key="dock_appone"
+		android:dialogTitle="@string/appone_title"
+		android:title="@string/appone_title" />
+	    <ListPreference android:key="dock_apptwo"
+		android:dialogTitle="@string/apptwo_title"
+		android:title="@string/apptwo_title" />
+	    <ListPreference android:key="dock_appthree"
+		android:dialogTitle="@string/appthree_title"
+		android:title="@string/appthree_title" />
+	    <ListPreference android:key="dock_appfour"
+		android:dialogTitle="@string/appfour_title"
+		android:title="@string/appfour_title" />
+	    <ListPreference android:key="dock_appfive"
+		android:dialogTitle="@string/appfive_title"
+		android:title="@string/appfive_title" />
+
+	</PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">HUD</string>
+
+    <string name="launcher_settings_title">Launcher Settings</string>
+    <string name="launcher_settings_summary">Configure the launcher</string>
+
+    <string name="dock_settings_title">Dock Settings</string>
+    <string name="dock_settings_summary">Configure the dock</string>
+    <string name="selectapp_category_title">Dock apps selector</string>
+
+    <string name="appone_title">Shortcut One</string>
+    <string name="apptwo_title">Shortcut Two</string>
+    <string name="appthree_title">Shortcut Three</string>
+    <string name="appfour_title">Shortcut Four</string>
+    <string name="appfive_title">Shortcut Five</string>
+
+</resources>
