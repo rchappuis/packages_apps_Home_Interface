@@ -109,7 +109,7 @@ public class DockSettings extends PreferenceActivity
 	}
 
 	//Returns the list of selected apps from each ListPreference
-	public ArrayList<CharSequence> getSelectedApps() {
+	public static ArrayList<CharSequence> getSelectedApps() {
 		return selectedApps;
 	}
 }
