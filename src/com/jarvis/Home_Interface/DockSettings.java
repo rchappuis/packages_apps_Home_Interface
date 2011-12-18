@@ -13,7 +13,7 @@
 ** See the License for the specific language governing permissions and 
 ** limitations under the License.
 */
-package com.jarvis.starklauncher;
+package com.jarvis.HUD;
 
 import android.app.Activity;
 import android.app.ActivityManager;
@@ -56,7 +56,8 @@ public class DockSettings extends PreferenceActivity
 	private ArrayList<CharSequence> appNames = new ArrayList<CharSequence>();
 	private static ArrayList<CharSequence> selectedApps = new ArrayList<CharSequence>();
 	
-	private ListPreference shortcutOne;
+	//The five shortcuts- shows a list of all apps per each shortcut
+    private ListPreference shortcutOne;
 	private ListPreference shortcutTwo;
 	private ListPreference shortcutThree;
 	private ListPreference shortcutFour;
@@ -78,6 +79,7 @@ public class DockSettings extends PreferenceActivity
 			appNames.add(PackageManager.getApplicationLabel(pi.applicationInfo));
 		}
 
+        //Setup the shortcut lists
 		shortcutOne = (ListPreference)findPreference("dock_appone");
 		shortcutOne.setEntries(appNames.toArray());
 		shortcutOne.setEntryValues(packageNames.toArray());
@@ -100,6 +102,7 @@ public class DockSettings extends PreferenceActivity
 	}
 
 	public void onPreferenceChanged(Preference preference, Object objValue) {
+        //Clear the current list of selected apps and add each new one
 		selectedApps.clear();
 		selectedApps.add(shortcutOne.getValue());
 		selectedApps.add(shortcutTwo.getValue());

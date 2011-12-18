@@ -13,7 +13,7 @@
 ** See the License for the specific language governing permissions and 
 ** limitations under the License.
 */
-package com.jarvis.starklauncher;
+package com.jarvis.home_interface;
 
 import android.app.Activity;
 import android.app.ActivityManager;

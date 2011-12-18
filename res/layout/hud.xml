@@ -6,7 +6,7 @@
                 android:summary="@string/launcher_settings_summary">
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="com.jarvis.HUD"
-                    android:targetClass="com.t3hh4xx0r.HUD.LauncherSettings" />
+                    android:targetClass="com.jarivs.HUD.LauncherSettings" />
         </PreferenceScreen>
 
         <PreferenceScreen android:key="dock_settings"
@@ -14,7 +14,7 @@
                 android:summary="@string/dock_settings_summary">
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="com.jarvis.HUD"
-                    android:targetClass="com.t3hh4xx0r.HUD.DockSettings" />
+                    android:targetClass="com.jarvis.HUD.DockSettings" />
         </PreferenceScreen>
 
 </PreferenceScreen>

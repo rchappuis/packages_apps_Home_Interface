@@ -14,14 +14,14 @@
 ** limitations under the License.
 */
 
-package com.jarvis.HUD;
+package com.jarvis.home_interface;
 
 import android.content.SharedPreferences;
 import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.os.Bundle;
 
-import com.jarvis.HUD.R;
+import com.jarvis.home_interface.R;
 
 public class HUD extends PreferenceActivity 
 	implements Preference.OnPreferenceChangeListener, 
